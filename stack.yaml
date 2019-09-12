@@ -1,0 +1,64 @@
+resolver: lts-14.3
+allow-newer: true
+
+flags: {}
+
+packages:
+  - galois/llvm-pretty/
+  - galois/llvm-pretty-bc-parser/
+  - galois/jvm-parser/
+  - galois/aig/
+  - galois/abcBridge/
+  - galois/cryptol/
+  - galois/saw-core/
+  - galois/saw-core-aig/
+  - galois/saw-core-sbv/
+  - galois/saw-core-what4/
+  - galois/saw-script/
+  - galois/cryptol-verifier/
+  - galois/jvm-verifier/
+  - galois/crucible/what4/
+  - galois/crucible/what4-abc/
+  - galois/crucible/crucible/
+  - galois/crucible/crucible-jvm/
+  - galois/crucible/crucible-llvm/
+  - galois/crucible/crucible-saw/
+  - galois/crucible/crux/
+  - galois/parameterized-utils/
+  - galois/dwarf/
+  - galois/elf-edit/
+  - galois/flexdis86/
+  - galois/flexdis86/binary-symbols/
+  - galois/macaw/base/
+  - galois/macaw/symbolic/
+  - galois/macaw/x86/
+  - galois/macaw/x86_symbolic/
+
+extra-deps:
+  - IfElse-0.85
+  - fgl-visualize-0.1.0.1
+  - dotgen-0.4.2
+  - simple-smt-0.9.4
+  - GraphSCC-1.0.4
+  - monadLib-3.9
+  - sbv-8.3
+  - panic-0.4.0.1
+  - itanium-abi-0.1.1.1
+  - boomerang-1.4.5.6
+  - th-abstraction-0.3.1.0
+  - microlens-th-0.4.2.3
+  - deriving-compat-0.5.6
+  - bifunctors-5.5.4
+  - generic-deriving-1.12.4
+  - invariant-0.5.3
+  - lens-4.17.1
+  - th-lift-0.8.0.1
+  - config-schema-1.1.0.0
+  - config-value-0.6.3.1
+  - simple-get-opt-0.3
+
+nix:
+  enable: true
+  packages:
+  - z3
+  - zlib

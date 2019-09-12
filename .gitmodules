@@ -1,0 +1,57 @@
+[submodule "galois/llvm-pretty"]
+	path = galois/llvm-pretty
+	url = https://github.com/elliottt/llvm-pretty
+[submodule "galois/llvm-pretty-bc-parser"]
+	path = galois/llvm-pretty-bc-parser
+	url = https://github.com/GaloisInc/llvm-pretty-bc-parser
+[submodule "galois/jvm-parser"]
+	path = galois/jvm-parser
+	url = https://github.com/GaloisInc/jvm-parser
+[submodule "galois/aig"]
+	path = galois/aig
+	url = https://github.com/GaloisInc/aig
+[submodule "galois/abcBridge"]
+	path = galois/abcBridge
+	url = https://github.com/GaloisInc/abcBridge
+[submodule "galois/cryptol"]
+	path = galois/cryptol
+	url = https://github.com/GaloisInc/cryptol
+[submodule "galois/saw-core"]
+	path = galois/saw-core
+	url = https://github.com/GaloisInc/saw-core
+[submodule "galois/saw-core-aig"]
+	path = galois/saw-core-aig
+	url = https://github.com/GaloisInc/saw-core-aig
+[submodule "galois/saw-core-sbv"]
+	path = galois/saw-core-sbv
+	url = https://github.com/GaloisInc/saw-core-sbv
+[submodule "galois/saw-core-what4"]
+	path = galois/saw-core-what4
+	url = https://github.com/GaloisInc/saw-core-what4
+[submodule "galois/cryptol-verifier"]
+	path = galois/cryptol-verifier
+	url = https://github.com/GaloisInc/cryptol-verifier
+[submodule "galois/jvm-verifier"]
+	path = galois/jvm-verifier
+	url = https://github.com/GaloisInc/jvm-verifier
+[submodule "galois/crucible"]
+	path = galois/crucible
+	url = https://github.com/GaloisInc/crucible
+[submodule "galois/parameterized-utils"]
+	path = galois/parameterized-utils
+	url = https://github.com/GaloisInc/parameterized-utils
+[submodule "galois/dwarf"]
+	path = galois/dwarf
+	url = https://github.com/GaloisInc/dwarf
+[submodule "galois/elf-edit"]
+	path = galois/elf-edit
+	url = https://github.com/GaloisInc/elf-edit
+[submodule "galois/flexdis86"]
+	path = galois/flexdis86
+	url = https://github.com/GaloisInc/flexdis86
+[submodule "galois/macaw"]
+	path = galois/macaw
+	url = https://github.com/GaloisInc/macaw
+[submodule "galois/saw-script"]
+	path = galois/saw-script
+	url = https://github.com/GaloisInc/saw-script
