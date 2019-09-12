@@ -2,7 +2,7 @@
 
 * Usage
 - The =working= branch tracks a collection of submodule commits that can build [[https://github.com/GaloisInc/saw-script][saw-script]] and [[https://github.com/GaloisInc/crucible][crucible]].
-- From the =working= branch, set up =working= branches for each submodule in =galois/= too: =git submodule foreach 'git checkout -B working'=
+- From the =working= branch, set up =working= branches for each submodule in =galois/=.
 - Branch off of =working= in whichever submodule to develop.
 * Plans
 - Maybe use tags to allow development off of old states.
