@@ -41,7 +41,7 @@ let
   ]);
   galois-repl = pkgs.writeShellScriptBin "galois-repl" ''
     if [[ $# -eq 0 ]]; then echo "Usage: $0 PACKAGE"; exit 1; fi
-    ghci "-igalois/$1/src" -ignore-package "$1" 
+    ghci "-igalois/$1/src" -ignore-package "$1"
   '';
   galois-hie-bios = pkgs.writeShellScriptBin "galois-hie-bios" ''
     if [[ $# -eq 0 ]]; then echo "Usage: $0 PACKAGE"; exit 1; fi
